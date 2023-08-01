@@ -1,0 +1,41 @@
+function Selection(){
+    document.getElementById("Time_Worst").innerText="O(N^2)";
+    document.getElementById("Time_Average").innerText="Θ(N^2)";
+    document.getElementById("Time_Best").innerText="Ω(N^2)";
+    document.getElementById("Space_Worst").innerText="O(1)";
+    c_delay=0;
+    for(var i=0;i<aa_size-1;i++){
+        div_update(divs[i],div_sizes[i],"red");
+        var minele=i;
+        for(var j=i+1;j<aa_size;j++){
+                div_update(divs[j],div_sizes[j],"yellow");
+                if(div_sizes[minele]>div_sizes[j]){
+                if(minele!=i)
+                {
+                    div_update(divs[minele],div_sizes[minele],"blue");//Color update
+                }
+                minele=j;
+                div_update(divs[minele],div_sizes[minele],"red");//Color update
+            }
+        
+            else
+            {
+                div_update(divs[j],div_sizes[j],"blue");//Color update
+            }
+        }
+        if(minele!=i){
+            var temp=div_sizes[minele];
+            div_sizes[minele]=div_sizes[i];
+            div_sizes[i]=temp;
+            div_update(divs[minele],div_sizes[minele],"red");
+            div_update(divs[i],div_sizes[i],"red");
+            div_update(divs[minele],div_sizes[minele],"blue");
+        }
+        div_update(divs[i],div_sizes[i],"green");
+    }
+    div_update(divs[i],div_sizes[i],"green");
+        }
+
+
+        
+    

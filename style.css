@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav {
+    background-color: #3b3a3a;
+    color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 60%;
+        grid-template-columns: 30% 60%;
+    -webkit-column-gap: 10%;
+            column-gap: 10%;
+    padding: 0% 5%;
+  }
+   nav .array-inputs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+        
+        align-content: center;
+        
+    
+    padding: 5% 0%;
+    
+  }
+  nav .array-inputs #a_size {
+    padding: 5% 0%;
+    
+  }
+  nav .array-inputs #a_speed {
+    padding: 5% 0%;
+    
+  }
+  
+   
+   
+  nav .array-inputs #a_generate {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  margin-top: 10px; 
+  align-content: center;
+  padding: 8% 0% 0% 0%;
+  
+  padding-left: 12.4%;
+}
+  nav .array-inputs #a_generate:hover {
+    background-color: green;
+    cursor: pointer;
+    border-radius: 50%;
+  } 
+   nav .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+} 
+ 
+   nav .header_right .nav-heading {
+    font-size: 50px;
+   padding: 3% 0%;
+  
+  }
+  nav .header_right .algos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+   
+   grid-template-columns: 16% 18% 18% 16.6% 16.6% 16.6%;
+  place-content: center;
+  column-gap: 5px;
+  padding: 2% 0%;
+ } 
+  
+  nav .header_right .algos button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 5% 0%;
+    margin-right: 15px;
+    font-size: x-large;
+    margin-top: 10px;
+   
+  }
+  
+  
+  nav .header_right .algos button:hover {
+    background-color: blue;
+     cursor: pointer; 
+  }
+  
+  section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+        grid-template-columns: 20% 60% 20%;
+  }
+  section #Info_Cont1 {
+    padding: 20% 10%;
+  }
+  section #Info_Cont1 h3 {
+    text-decoration: underline;
+  }
+  section #array_container {
+    display:-webkit-inline-box;
+    display:flexbox;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    
+  }
+   section .Complexity_Containers {
+  margin-top: 25%;
+    
+   }
+   section #Info_Cont2 {
+    padding: 20% 10%;
+  }
+   section #Info_Cont2 h3 {
+    text-decoration: underline;
+  }
+  section .Complexity_Containers #Time_Worst  {
+    padding: 15% 10%;
+  }
+  section .Complexity_Containers #Time_Best  {
+    padding: 15% 10%;
+  }
+  section .Complexity_Containers #Time_Average  {
+    padding: 15% 10%;
+  }  
