@@ -1,8 +1,9 @@
-# Sorting_Visualizer
+# Sorting Visualizer
 
 A web application showcasing the inner workings of sorting algorithms.
 
-Implemented algorithms:
+## Implemented algorithms:
+
 1) Bubble sort
 2) Selection sort
 3) Insertion sort
@@ -10,16 +11,26 @@ Implemented algorithms:
 5) Quick sort
 6) Heap sort
 
-Features:
+## Deployment
+
+1. To view website, visit the following url :-
+
+```
+https://64c95733ba4c93249a511871--meek-douhua-fbde11.netlify.app/
+
+```
+
+## Features:
 1) Colored representation of step being executed.
   1.1) Blue:default
   1.2) Yellow: Being compared
   1.3) Red: Identified as in incorrect position and to be moved
   1.4) Green: In correct position
+   
 2) 3 Controls for visualizations
   2.1) Speed of visualization (5 speed levels)
   2.2) Data size ()
   2.3) Generation of new data (Randomly generate new data).
-4) Time and Space complexity of algorithm being visualized.
+   
+3) Time and Space complexity of algorithm being visualized.
 
-Take a look at live version: https://64c95733ba4c93249a511871--meek-douhua-fbde11.netlify.app/
